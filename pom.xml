@@ -6,7 +6,7 @@
 
 	<scm>
 		<url>https://github.com/taiichiro-nagase/${project.artifactId}</url>
-		<connection>scm:git:git@github.com:taiichiro-nagase/${project.artifactId}.git</connection>
+		<connection>scm:git:https://${env.GH_TOKEN}@github.com/taiichiro-nagase/${project.artifactId}.git</connection>
 		<tag>HEAD</tag>
 	</scm>
 
