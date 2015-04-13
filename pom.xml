@@ -2,12 +2,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.nagaseyasuhito</groupId>
 	<artifactId>sample-git-release</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<scm>
 		<url>https://github.com/taiichiro-nagase/${project.artifactId}</url>
 		<connection>scm:git:git@github.com:taiichiro-nagase/${project.artifactId}.git</connection>
-		<tag>0.0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<build>
